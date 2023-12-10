@@ -1,0 +1,18 @@
+@import "../themes/theme.scss";
+
+table{
+    border-collapse: collapse;
+   border: 1px solid black;
+   width: 100%;
+ 
+   
+}
+
+thead{
+    height: 40px;
+    width: 100%;
+    background-color: $secondary;
+    color: rgb(238, 233, 233);
+    font-size: $fs-2;
+}
+

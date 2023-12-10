@@ -1,0 +1,22 @@
+{
+    "employees":[
+        {
+            "id":1,
+            "name":"Hamza",
+            "email":"raza@gmail.com",
+            "phoneNo":"0333333303"
+        },
+        {
+            "id":2,
+            "name":"Awais",
+            "email":"raza@gmail.com",
+            "phoneNo":"0333333303"
+        },
+        {
+            "id":3,
+            "name":"Raza",
+            "email":"raza@gmail.com",
+            "phoneNo":"0333333303"
+        }
+    ]
+}

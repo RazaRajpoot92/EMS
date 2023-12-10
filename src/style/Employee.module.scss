@@ -1,0 +1,67 @@
+@import "../themes/theme.scss";
+
+.employee{
+    font-size: $fs-2;
+    color: rgb(59, 59, 61);
+    transition: 0.5s ease;
+    height: 50px;
+    border-bottom: 1px solid rgb(185, 182, 182);
+  
+}
+.employee:hover{
+    background-color: $primary200;
+}
+
+td{
+    width: 150px;
+    text-align: center;
+    padding-inline: 30px;
+   
+}   
+.nameCon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.nameTd{
+    width: 120px;
+}
+.idTd{
+    width: 50px;
+}
+.dp{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.btnTD{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 50px;
+  
+}
+
+.btnEdit{
+    @extend .btn;
+    background-color:$primary;
+    color: white;
+}
+.btn:hover{
+    border: 1px solid $primary;
+    background-color: rgba(0, 0, 0, 0);
+    color: $primary;
+}
+
+.btnDel{
+    @extend .btn;
+    background-color:$danger;
+    color: white;
+}
+.btnDel:hover{
+    border: 1px solid $danger;
+    background-color: rgba(0, 0, 0, 0);
+    color: $danger;
+}

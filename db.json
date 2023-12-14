@@ -1,14 +1,6 @@
 {
   "employees": [
     {
-      "name": "Awais92",
-      "email": "raza@gmail.com",
-      "phoneNo": "0333333303",
-      "img": "https://img.freepik.com/premium-photo/young-hipster-man-with-his-arms-crossed_1368-14152.jpg?w=360",
-      "degnisation": "Software Engineer",
-      "id": 2
-    },
-    {
       "name": "Hamza",
       "email": "raza@gmail.com",
       "phoneNo": "0333333303",
@@ -57,20 +49,20 @@
       "img": "https://img.freepik.com/premium-photo/young-hipster-man-with-his-arms-crossed_1368-14152.jpg?w=360"
     },
     {
-      "id": 10,
       "name": "Awais",
-      "degnisation": "Software Engineer",
-      "email": "raza@gmail.com",
+      "email": "awais@gmail.com",
       "phoneNo": "0333333303",
-      "img": "https://img.freepik.com/premium-photo/young-hipster-man-with-his-arms-crossed_1368-14152.jpg?w=360"
+      "img": "https://img.freepik.com/premium-photo/young-hipster-man-with-his-arms-crossed_1368-14152.jpg?w=360",
+      "degnisation": "Software Engineer",
+      "id": 10
     },
     {
-      "name": "asf",
-      "email": "raza@gmail.com",
-      "phoneNo": "asdf",
-      "img": "https://img.freepik.com/premium-photo/young-hipster-man-with-sdfhis-arms-crossed_1368-14152.jpg?w=360",
-      "degnisation": "asdf",
-      "id": 12
+      "name": "Awais92",
+      "email": "good@gmail.com",
+      "img": "https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F8b157ac2-06d1-11ee-8502-af592ba32c58.jpg?crop=4640%2C2610%2C1040%2C768&resize=1500https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F8b157ac2-06d1-11ee-8502-af592ba32c58.jpg?crop=4640%2C2610%2C1040%2C768&resize=1500",
+      "degnisation": "Software Developer",
+      "phoneNo": "03333333",
+      "id": 13
     }
   ]
 }

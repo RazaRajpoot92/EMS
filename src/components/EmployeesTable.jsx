@@ -30,7 +30,7 @@ const EmployeesTable = () => {
 
 
     const deleteEmployee=(id)=>{
-    const confirm = window.alert("Are you sure to delete?")
+    const confirm = window.confirm("Are you sure to delete?")
     if(confirm){
     axios.delete(`${apiUrl}/${id}`).catch(error=>setError(error.message))
 

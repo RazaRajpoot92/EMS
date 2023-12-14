@@ -1,20 +1,28 @@
 $primary:#573CFA;
-$primary100:#efe8f8;
-$primary200:rgb(247, 244, 247);
+$primary100:#edeaf2e6;
+$primary200:rgba(216, 210, 246, 0.719);
+$primary300:rgba(243, 243, 243, 0.719);
+$primary400:rgb(210, 202, 240);
+$primary500:#e3fcf9df;
 
-$secondary:#1C1A27;
+
+$secondary:rgb(58, 56, 69);
+$secondary100:#3d3c42;
 
 $danger:#E8083E;
 $success:#02864A;
 $warning:#FB8D1A;
 
+
 $bcPrimary:rgba(216, 216, 216, 0.812);
+$bcprimary100:rgb(176, 161, 240);
 
 
 // font sizes
 
 $fs-1:14px;
 $fs-2:1.1rem;
+$fs-3:1.5rem;
 
 
 .btn{
@@ -25,3 +33,25 @@ $fs-2:1.1rem;
     font-size: $fs-1;
     transition: 0.3s ease-in-out;
 }
+
+
+
+// $primary:#2100de;
+// $primary100:#515052;
+
+// $primary200:rgba(38, 0, 230, 0.719);
+// $primary300:rgba(117, 99, 99, 0.719);
+// $primary400:rgb(2, 1, 8);
+// $primary500:#e3e3e3df;
+
+
+// $secondary:rgb(255, 255, 255);
+// $secondary100:#000000;
+
+// $danger:#ff003c;
+// $success:#03ff8e;
+// $warning:#ff8400;
+
+
+// $bcPrimary:rgba(213, 12, 12, 0.812);
+// $bcprimary100:rgb(46, 6, 226);

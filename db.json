@@ -1,14 +1,6 @@
 {
   "employees": [
     {
-      "name": "Awais920",
-      "email": "raza@gmail.com",
-      "phoneNo": "0333333303",
-      "img": "https://img.freepik.com/premium-photo/young-hipster-man-with-his-arms-crossed_1368-14152.jpg?w=360",
-      "degnisation": "Software Engineer",
-      "id": 2
-    },
-    {
       "name": "Hamza",
       "email": "raza@gmail.com",
       "phoneNo": "0333333303",
@@ -41,7 +33,7 @@
       "img": "https://img.freepik.com/premium-photo/young-hipster-man-with-his-arms-crossed_1368-14152.jpg?w=360"
     },
     {
-      "id": 8,
+
       "name": "Awais",
       "degnisation": "Software Engineer",
       "email": "raza@gmail.com",
@@ -49,20 +41,13 @@
       "img": "https://img.freepik.com/premium-photo/young-hipster-man-with-his-arms-crossed_1368-14152.jpg?w=360"
     },
     {
-      "id": 10,
+
       "name": "Awais",
       "degnisation": "Software Engineer",
       "email": "raza@gmail.com",
       "phoneNo": "0333333303",
       "img": "https://img.freepik.com/premium-photo/young-hipster-man-with-his-arms-crossed_1368-14152.jpg?w=360"
     },
-    {
-      "name": "asf",
-      "email": "raza@gmail.com",
-      "phoneNo": "asdf",
-      "img": "https://img.freepik.com/premium-photo/young-hipster-man-with-sdfhis-arms-crossed_1368-14152.jpg?w=360",
-      "degnisation": "asdf",
-      "id": 12
-    }
+   
   ]
 }

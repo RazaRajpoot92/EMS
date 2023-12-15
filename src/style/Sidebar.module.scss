@@ -5,10 +5,10 @@
     padding: 5px;
     display: flex;
     flex:1;
+    position: sticky;
     flex-direction: column;
     gap: 40px;
     border-right: 1px solid rgb(192, 190, 190);
-
 }
 
 .logoCon{
@@ -16,7 +16,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    // background-color: $primary;
     color:$primary;
     >h1 span{
         color: $secondary100;

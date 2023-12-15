@@ -2,7 +2,7 @@ import React from 'react'
 import style from "../style/Pagination.module.scss"
 import nextIcon from "../assets/nextIcon.png"
 import backIcon from "../assets/backIcon.png"
-const Pagination = ({onNextPage,onPreviousPage}) => {
+const Pagination = ({onPreviousPage,onNextPage}) => {
   return (
     <div className={style.container}>
         <img onClick={onPreviousPage} className={style.backIcon} src={backIcon} alt="" />

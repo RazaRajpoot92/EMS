@@ -5,12 +5,14 @@
     display: flex;
     gap: 20px;
 
+
 }
 
 .pieContainer{
     border: 1px solid rgb(180, 175, 175);
     flex:1;
     border-radius: 10px;
+    height: 300px;
 }
 
 .container{
@@ -20,7 +22,7 @@
 
 .cartContainer{
     flex:2;
-    height: 400px;
+    height: 300px;
     border: 1px solid rgb(181, 176, 176);
     background-color: $primary100;
     position: relative;

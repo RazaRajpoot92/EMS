@@ -67,7 +67,7 @@ const EmployeesTable = () => {
                 <tr>
                     <th>ID</th>
                     <th>Name</th>
-                    <th>Degnisation</th>
+                    <th>Designation</th>
                     <th>Email</th>
                     <th>Phone No.</th>
                     <th>Action</th>

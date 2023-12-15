@@ -33,7 +33,7 @@ const UpdateEmployeeForm = ({handlSubmit,setEmployee,employee,heading, btnText})
           <div className={style.Con}>
           <div className={style.employeeInput}>
             <label htmlFor="phone">Job Position</label>
-            <input onChange={e=>setEmployee({...employee,degnisation:e.target.value})} value={employee.degnisation} placeholder='Enter employee job position' type="text" name='phone' />
+            <input onChange={e=>setEmployee({...employee,designation:e.target.value})} value={employee.designation} placeholder='Enter employee job position' type="text" name='phone' />
           </div>
 
           <div className={style.employeeInput}>

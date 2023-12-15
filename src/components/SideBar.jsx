@@ -7,9 +7,7 @@ import clients from "../assets/clients.png"
 import check from "../assets/check.png"
 import feedback from "../assets/feedback.png"
 import employeesIcon from "../assets/employeess.png"
-import sirPic from '../assets/sir.jpg'
-
-let img = "https://img.freepik.com/premium-photo/young-hipster-man-with-his-arms-crossed_1368-14152.jpg?w=360"
+import sirPic from '../assets/sir1.jpg'
 
 
 const SideBar = () => {

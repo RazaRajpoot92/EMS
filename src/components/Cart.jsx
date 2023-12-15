@@ -7,7 +7,6 @@ const Cart = ({data,heading}) => {
     <div className={style.cartCon}>
 
         <h2>{heading}</h2>
-
         <h1>{data}</h1>
 
     </div>

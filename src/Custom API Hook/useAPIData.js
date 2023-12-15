@@ -27,7 +27,7 @@ const getEmployeesData = (apiUrl)=>{
       .catch(err=>setError(err.message))
       .finally(setLoading(false))
 
-    },0)
+    },1000)
 }
 
 

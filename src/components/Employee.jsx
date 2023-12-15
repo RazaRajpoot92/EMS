@@ -20,7 +20,7 @@ employees.slice(start,end).map((employee)=>(
                 <p>{employee.name}</p>
             </div>
         </td>
-        <td>{employee.degnisation}</td>
+        <td>{employee.designation}</td>
         <td>{employee.email}</td>
         <td>{employee.phoneNo}</td>
         <td className={style.btnTD}>

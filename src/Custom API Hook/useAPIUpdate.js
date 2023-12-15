@@ -15,7 +15,7 @@ export const useAPIUpdate = ()=>{
         email:"",
         phoneNo:"",
         img:"",
-        degnisation:"",
+        designation:"",
     })
 
 useEffect(()=>{
@@ -27,7 +27,7 @@ useEffect(()=>{
             email:res.data.email,
             img:res.data.img,
             phoneNo:res.data.phoneNo,
-            degnisation:res.data.degnisation,
+            designation:res.data.designation,
 
         }))
         .catch(err=>toast.error(err.message))
@@ -49,7 +49,6 @@ useEffect(()=>{
         employee,
         setEmployee,
         handlSubmit,
-
     }
 
 }

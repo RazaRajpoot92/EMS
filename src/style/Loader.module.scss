@@ -1,0 +1,43 @@
+@import "../themes/theme.scss";
+
+
+.loader{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spinouter{
+    width: 70px;
+    height: 70px;
+    border-bottom: 5px solid $primary;
+    border-top: 5px solid black;
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+
+}
+.spinInner{
+    position: absolute;
+    top: 12px;
+    width: 40px;
+    height: 40px;
+    border-top: 3px solid $primary;
+    border-bottom: 3px solid rgb(24, 23, 23);
+    border-radius: 50%;
+    animation: spinin 0.7s linear infinite reverse;
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes spinin {
+    from{
+        transform: rotate(360deg)
+    }
+}

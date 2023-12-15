@@ -1,0 +1,23 @@
+@import "../themes/theme.scss";
+
+.cartCon{
+    width: 230px;
+    height: 150px;
+    border:1px solid $bcprimary100;
+    border-radius: 20px;
+    margin-top: -60px;
+    z-index: 100;
+    background-color: $primary400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    >h2{
+        color: $primary;
+    }
+
+    >h1{
+        color: $secondary;
+    }
+}

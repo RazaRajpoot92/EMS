@@ -1,18 +1,99 @@
 @import "../themes/theme.scss";
 
+
+.tableContainer{
+    padding: 20px;
+    display: flex;
+    flex:3.6;
+    flex-direction: column;
+    background-color: $primary100;
+
+}
+.container{
+    border: 1px solid rgb(160, 157, 157);
+    border-radius: 10px;
+    box-shadow: 0 0 1rem $bcPrimary;
+    background-color: $primary300;
+    padding: 10px;
+}
+
+.Header{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100px;
+    padding-bottom: 10px;
+}
+
+
+
+.searchBar{
+    margin-top: 10px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(190, 185, 185);
+    height: 33px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.searchIcon{
+    width: 20px;
+    margin-right: 5px;
+}
+
+
+.SearchInput{
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px;
+    font-size: $fs-1;
+    width: 100%;
+}
+
+.searchBar:has(input:focus){
+    border: 1px solid $primary;
+}
+
+.btn{
+    background-color: $primary;
+    color: white;
+    height: 35px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.btn:hover{
+    background-color: rgba(245, 245, 220, 0);
+    border-color: $primary;
+    color: $primary;
+}
+
+
+
 table{
     border-collapse: collapse;
-   border: 1px solid black;
-   width: 100%;
- 
-   
+
+
 }
 
 thead{
-    height: 40px;
-    width: 100%;
+    height: 50px;
     background-color: $secondary;
     color: rgb(238, 233, 233);
     font-size: $fs-2;
+
 }
 
+.heading{
+    font-size: $fs-2;
+    color: $primary;
+    border: 1px solid $bcPrimary;
+    padding: 5px;
+}

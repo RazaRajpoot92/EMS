@@ -2,9 +2,10 @@
 
 
 .tableContainer{
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex:3.6;
+    
     flex-direction: column;
     background-color: $primary100;
 
@@ -14,7 +15,8 @@
     border-radius: 10px;
     box-shadow: 0 0 1rem $bcPrimary;
     background-color: $primary300;
-    padding: 10px;
+    padding-inline: 10px;
+    
 }
 
 .Header{
@@ -22,7 +24,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    height: 100px;
+    height: 60px;
     padding-bottom: 10px;
 }
 
@@ -79,12 +81,11 @@
 
 table{
     border-collapse: collapse;
-
-
 }
 
 thead{
     height: 50px;
+    
     background-color: $secondary;
     color: rgb(238, 233, 233);
     font-size: $fs-2;

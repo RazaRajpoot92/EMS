@@ -6,9 +6,7 @@ import Loader from './Loader'
 import ErrorCompo from './ErrorCompo.jsx'
 import Pagination from './Pagination.jsx'
 import {useAPIData} from "../Custom API Hook/useAPIData.js"
-import axios from 'axios'
 import {ToastContainer,toast} from "react-toastify"
-
 
 const EmployeesTable = () => {
 
@@ -24,23 +22,8 @@ const EmployeesTable = () => {
     query,
     setQuery,
     apiUrl,
-    setError,
-    getEmployeesData,
+    deleteEmployee,
   } = useAPIData()
-
-
-    const deleteEmployee=(id)=>{
-    const confirm = window.confirm("Are you sure to delete?")
-    if(confirm){
-    axios.delete(`${apiUrl}/${id}`).catch(error=>setError(error.message))
-
-    getEmployeesData(apiUrl)
-
-    toast.success(`Employee Deleted with Id: ${id} `)
-      }
-    }
-
-
 
 
   const onNextPage = ()=>{

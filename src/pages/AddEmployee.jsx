@@ -14,10 +14,10 @@ const AddEmployee = () => {
         name:"",
         email:"",
         img:"",
-        degnisation:"",
+        designation:"",
         phoneNo:""
     })
-    const [error, setError] = useState(null)
+    
 
 
     const handlSubmit=(e)=>{
@@ -29,7 +29,7 @@ const AddEmployee = () => {
             name:"",
             email:"",
             img:"",
-            degnisation:"",
+            designation:"",
             phoneNo:""
     })
 

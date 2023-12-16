@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import axios from "axios"
+import { toast } from "react-toastify"
 
 
 const apiUrl = "http://localhost:3000/employees"
@@ -15,6 +16,7 @@ const [end , setEnd] = useState(8)
 const [noRecords , setNoRecords] = useState(false)
 const [query, setQuery] = useState("")
 
+// Get Employee Data API
 const getEmployeesData = (apiUrl)=>{
 
     setLoading(true)
@@ -30,6 +32,18 @@ const getEmployeesData = (apiUrl)=>{
     },1000)
 }
 
+
+// Delete employee API
+const deleteEmployee=(id)=>{
+  const confirm = window.confirm("Are you sure to delete?")
+  if(confirm){
+  axios.delete(`${apiUrl}/${id}`).catch(error=>setError(error.message))
+
+  getEmployeesData(apiUrl)
+
+  toast.success(`Employee Deleted with Id: ${id} `)
+    }
+  }
 
 useEffect(()=>{
 
@@ -53,6 +67,7 @@ return {
         apiUrl,
         setEmployees,
         setError,
-        getEmployeesData
+        getEmployeesData,
+        deleteEmployee
     }
 }

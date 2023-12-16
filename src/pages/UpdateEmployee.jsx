@@ -9,7 +9,6 @@ const UpdatEmployee = () => {
         employee,
         setEmployee,
         handlSubmit,
-
     } = useAPIUpdate()
 
 

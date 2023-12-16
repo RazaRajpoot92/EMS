@@ -35,20 +35,16 @@ useEffect(()=>{
     getEmployee()
 },[])
 
-
     const handlSubmit=(e)=>{
         e.preventDefault()
         axios.put(`${apiUrl}/${id}`,employee)
-        .then(()=>toast.success("Employeed Updated Sucessfully!"))
+        .then(()=>toast.success("Employee Updated Sucessfully!"))
         .catch(err=>toast.error(err.message))
     }
-
-
     return{
         id,
         employee,
         setEmployee,
         handlSubmit,
     }
-
 }

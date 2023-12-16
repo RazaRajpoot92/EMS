@@ -1,13 +1,14 @@
 @import "../themes/theme.scss";
 
 .container{
-    width: 90%;
+    width: 93%;
     max-width: 1200px;
-    height: 80vh;
+    height: 105vh;
     margin: 0px auto;
     border-radius: 20px;
     box-shadow: 0 0 14px $bcPrimary;
     padding: 5px;
     display: flex;
+    
 
 }
